@@ -1,91 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<title>ASM Gestão Clínica - Apresentação</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<style>
-body{
-    margin:0;
-    font-family:Montserrat, Arial, sans-serif;
-    background:#f5f5f5;
-}
-.section{
-    max-width:900px;
-    margin:40px auto;
-    background:#fff;
-    padding:50px;
-    box-shadow:0 10px 30px rgba(0,0,0,.1);
-}
-h1{
-    color:#264653;
-    text-align:center;
-}
-h2{
-    color:#2a9d8f;
-}
-.cta{
-    margin-top:40px;
-    text-align:center;
-}
-.btn{
-    display:inline-block;
-    padding:15px 35px;
-    background:#d4af37;
-    color:#264653;
-    text-decoration:none;
-    font-weight:700;
-    border-radius:30px;
-}
-.btn-secondary{
-    background:#fff;
-    border:2px solid #d4af37;
-    margin-top:20px;
-}
-footer{
-    text-align:center;
-    font-size:12px;
-    color:#777;
-    margin-top:60px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASM Gestão Clínica - Apresentação</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+        *{margin:0;padding:0;box-sizing:border-box;}
+        body{font-family:'Montserrat',Arial,sans-serif;background:#f5f5f5;color:#333;line-height:1.6;}
+        .page{width:210mm;min-height:297mm;margin:0 auto 20px;background:white;box-shadow:0 0 20px rgba(0,0,0,0.1);position:relative;overflow:hidden;}
+        .cover{background:linear-gradient(135deg,#264653 0%,#2a9d8f 100%);height:297mm;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;position:relative;}
+        .cover::before{content:'';position:absolute;top:20px;left:20px;right:20px;bottom:20px;border:3px solid #d4af37;}
+        .cover-content{z-index:1;padding:40px;}
+        .logo-icon{font-size:80px;margin-bottom:30px;}
+        .cover h1{color:#d4af37;font-size:48px;font-weight:700;letter-spacing:3px;}
+        .cover h2{color:white;font-size:24px;font-weight:300;margin-bottom:40px;}
+        .cover-tagline{color:#d4af37;font-size:18px;font-weight:600;padding:15px 30px;border:2px solid #d4af37;display:inline-block;}
+        .final-page{background:#264653;height:297mm;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:white;position:relative;}
+        .final-page::before{content:'';position:absolute;top:30px;left:30px;right:30px;bottom:30px;border:2px solid #d4af37;}
+        .final-logo{font-size:60px;margin-bottom:30px;}
+        .final-title{color:#d4af37;font-size:36px;font-weight:700;margin-bottom:20px;}
+        .final-subtitle{font-size:20px;font-weight:300;margin-bottom:50px;}
+        .final-cta{background:#d4af37;color:#264653;padding:15px 40px;font-size:18px;font-weight:700;border-radius:30px;margin-bottom:25px;}
+        .final-links{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;}
+        .final-links a{
+            background:#ffffff;
+            color:#264653;
+            padding:14px 32px;
+            border-radius:30px;
+            font-weight:700;
+            text-decoration:none;
+            border:2px solid #d4af37;
+            display:inline-block;
+        }
+        .final-copy{font-size:12px;opacity:0.7;margin-top:40px;}
+    </style>
 </head>
-
 <body>
 
-<div class="section">
-    <h1>ASM Gestão Clínica</h1>
-    <p style="text-align:center;">
-        Sistema completo para fisioterapeutas que querem organização, clareza e profissionalismo.
-    </p>
+<div class="page final-page">
+    <div class="final-logo">🏥</div>
+    <div class="final-title">ASM Gestão Clínica</div>
+    <div class="final-subtitle">A solução completa para gestão da sua clínica</div>
 
-    <h2>O que é</h2>
-    <p>
-        O ASM Gestão Clínica é um sistema desenvolvido para centralizar agenda, prontuário,
-        financeiro e relatórios em um único ambiente simples e seguro.
-    </p>
+    <div class="final-cta">Sistema Exclusivo para Profissionais da Saúde</div>
 
-    <h2>Principais recursos</h2>
-    <ul>
-        <li>Agenda integrada</li>
-        <li>Prontuário eletrônico</li>
-        <li>Controle financeiro</li>
-        <li>Relatórios profissionais</li>
-        <li>Integração com WhatsApp</li>
-    </ul>
-
-    <div class="cta">
-        <a class="btn" href="faq.html">Ver Perguntas Frequentes (FAQ)</a>
+    <div class="final-links">
+        <a href="apresentacao.html">📘 Ver Apresentação Completa</a>
+        <a href="faq.html">❓ Perguntas Frequentes (FAQ)</a>
     </div>
 
-    <div class="cta">
-        <a class="btn btn-secondary" href="#">Adquirir o Sistema</a>
+    <div class="final-copy">
+        <p>© 2024 Dra. Andresa Augusto - Todos os direitos reservados</p>
+        <p>Proibida a reprodução total ou parcial sem autorização expressa</p>
     </div>
-
-    <footer>
-        © 2024 Dra. Andresa Augusto · ASM Gestão Clínica
-    </footer>
 </div>
 
 </body>
